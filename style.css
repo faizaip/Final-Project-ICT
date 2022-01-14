@@ -1,0 +1,150 @@
+@media (max-width: 2060px) {
+    header {
+        height: 65px;
+        width: 100%;
+        background-color: rgb(202, 183, 148);
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 10;
+        opacity: 1;
+    }
+
+    header h3 {
+        margin-left: 20px;
+        font-family: cursive;
+        float: left;
+        color: white;
+    }
+
+    .logo {
+        width: 30px;
+        float: right;
+        margin-right: 20px;
+        padding-top: 15px;
+    }
+
+    .logo:hover {
+        width: 35px;
+    }
+
+    .top-wrapper h1{
+        text-align: center;
+        font-family: 'Brush Script MT';
+        font-size: 70px;
+        font-weight: bold;
+        padding-top: 70px;
+    }
+
+    .top-wrapper img {
+        height: 500px;
+        margin-left: 250px;
+    }
+
+    .text-content {
+        float: right;
+        line-height: 200%;
+        letter-spacing: 1px;
+        margin-right: 100px;
+        margin-top: 35px;
+        font-family: cursive;
+        
+    }
+
+    .middle-wrapper {
+        background-color: rgb(202, 183, 148);
+        width: 100%;
+        margin-top: 40px;
+        text-align: center;
+        height: 600px;
+    }
+
+    .middle-wrapper h3 {
+        font-family: 'Brush Script MT';
+        color: white;
+        font-size: 50px;
+        padding-top: 30px;
+    }
+
+    .photo {
+    display: inline-block;
+    text-align: center;
+    }
+
+    .photo img {
+        width: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 20px;
+    }
+
+    .photo h2{
+        color: white;
+        font-family: cursive;
+        font-size: 25px;
+    }
+
+    .photo a {
+        color: white;
+        font-family: cursive;
+    }
+
+    .bottom-wrapper {
+        padding-top: 40px;
+    }
+
+    .bottom-wrapper h2 {
+        font-size: 50px;
+        font-family: 'Brush Script MT';
+        text-align: center;
+        color: rgb(202, 183, 148);
+    }
+
+    .content {
+        display: inline-table;
+        margin-left: 85px;
+        margin-bottom: 150px;
+        text-align: center;
+        background-color: rgb(202, 183, 148);
+        height: 390px;
+        width: 300px;
+        border-radius: 20px;
+    }
+
+    .content h3 {
+        color: white;
+        font-family: cursive;
+        font-size: 20px;
+    }
+
+    .content img {
+        width: ;
+        height: 150px;
+        padding-bottom: 20px;
+    }
+
+    .content a {
+        font-family: cursive;
+        color: white;
+        padding-bottom: 20px;
+        line-height: 10px;
+    }
+
+    footer {
+        height: 65px;
+        width: 100%;
+        background-color: rgb(202, 183, 148);
+        margin-bottom: 0px;
+        left: 0px;
+        position:absolute;
+        opacity: 1;
+        color: white;
+        font-family: cursive;
+        text-align: center;
+    }
+}
+
+@media (max-width: 700px) {
+    .top-wrapper h1 {
+    
+}
