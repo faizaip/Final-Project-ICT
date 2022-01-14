@@ -32,7 +32,6 @@
         text-align: center;
         font-family: 'Brush Script MT';
         font-size: 70px;
-        font-weight: bold;
         padding-top: 70px;
     }
 
@@ -145,6 +144,43 @@
 }
 
 @media (max-width: 700px) {
+    header h3 {
+    font-family: cursive;
+    }
+
     .top-wrapper h1 {
+    font-family: 'Brush Script MT';
+    }
+
+    .top-wrapper img {
+    margin-left: 150px;
+    }
+
+    .text-content {
+    font-family: cursive;
+    }
+
+    .middle-wrapper h3{
+    font-family: 'Brush Script MT';
+    }
     
+    .photo h2 {
+    font-family: cursive;
+    }
+
+    .photo a {
+    font-family: cursive;
+    }
+
+    .bottom-wrapper h2 {
+    font-family: 'Brush Script MT';
+    }
+
+    .content {
+    font-family: cursive;
+    }
+
+    footer {
+        font-family: cursive;
+    }
 }
