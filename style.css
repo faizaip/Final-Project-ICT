@@ -1,4 +1,4 @@
-@media (max-width: 2060px) {
+
     header {
         height: 65px;
         width: 100%;
@@ -27,27 +27,27 @@
     .logo:hover {
         width: 35px;
     }
+   
+    .top-wrapper {
+        text-align: center;
+    }
 
     .top-wrapper h1{
-        text-align: center;
         font-family: 'Brush Script MT';
         font-size: 70px;
         padding-top: 70px;
+        text-align: center;
     }
 
     .top-wrapper img {
         height: 500px;
-        margin-left: 250px;
+        margin-bottom: 30px;
     }
 
     .text-content {
-        float: right;
-        line-height: 200%;
-        letter-spacing: 1px;
-        margin-right: 100px;
+        margin-right: 200px;
         margin-top: 35px;
         font-family: cursive;
-        
     }
 
     .middle-wrapper {
@@ -141,23 +141,18 @@
         font-family: cursive;
         text-align: center;
     }
-}
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
     header h3 {
     font-family: cursive;
     }
 
-    .top-wrapper h1 {
-    font-family: 'Brush Script MT';
+    .top-wrapper {
+        font-family: cursive;
     }
 
-    .top-wrapper img {
-    margin-left: 100px;
-    }
-
-    .text-content {
-    font-family: cursive;
+    .middle-wrapper {
+        height: 1400px;
     }
 
     .middle-wrapper h3{
@@ -166,6 +161,7 @@
 
     .photo {
     text-align: center;
+    display: list-item;
     }
     
     .photo h2 {
@@ -176,13 +172,18 @@
     font-family: cursive;
     }
 
+    .bottom-wrapper {
+        text-align: center;
+    }
+
     .bottom-wrapper h2 {
     font-family: 'Brush Script MT';
     }
 
     .content {
     font-family: cursive;
-    text-align: center;
+    display: list-item;
+    list-style: none;
     }
 
     footer {
