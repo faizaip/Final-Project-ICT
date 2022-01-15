@@ -12,7 +12,7 @@
 
     header h3 {
         margin-left: 20px;
-        font-family: cursive;
+        font-family: 'Amiri', serif;
         float: left;
         color: white;
     }
@@ -33,7 +33,7 @@
     }
 
     .top-wrapper h1{
-        font-family: 'Brush Script MT';
+        font-family: 'Pacifico', cursive;
         font-size: 70px;
         padding-top: 70px;
         text-align: center;
@@ -47,7 +47,7 @@
     .text-content {
         margin-right: 200px;
         margin-top: 35px;
-        font-family: cursive;
+        font-family: 'Amiri', serif;
     }
 
     .middle-wrapper {
@@ -59,7 +59,7 @@
     }
 
     .middle-wrapper h3 {
-        font-family: 'Brush Script MT';
+        font-family: 'Pacifico', cursive;
         color: white;
         font-size: 50px;
         padding-top: 30px;
@@ -74,18 +74,20 @@
         width: 300px;
         margin-left: 20px;
         margin-right: 20px;
+        margin-bottom: 20px;
         border-radius: 20px;
     }
 
     .photo h2{
         color: white;
-        font-family: cursive;
+        font-family: 'Balsamiq Sans', cursive;
         font-size: 25px;
     }
 
     .photo a {
         color: white;
-        font-family: cursive;
+        font-family: 'Amiri', serif;
+        line-height: 5px;
     }
 
     .bottom-wrapper {
@@ -94,7 +96,7 @@
 
     .bottom-wrapper h2 {
         font-size: 50px;
-        font-family: 'Brush Script MT';
+        font-family: 'Pacifico', cursive;
         text-align: center;
         color: rgb(202, 183, 148);
     }
@@ -112,18 +114,17 @@
 
     .content h3 {
         color: white;
-        font-family: cursive;
+        font-family: 'Balsamiq Sans', cursive;
         font-size: 20px;
     }
 
     .content img {
-        width: ;
         height: 150px;
         padding-bottom: 20px;
     }
 
     .content a {
-        font-family: cursive;
+        font-family: 'Amiri', serif;
         color: white;
         padding-bottom: 20px;
         line-height: 10px;
@@ -138,55 +139,26 @@
         position:absolute;
         opacity: 1;
         color: white;
-        font-family: cursive;
+        font-family: 'Amiri', serif;
         text-align: center;
     }
 
 @media (max-width: 1000px) {
-    header h3 {
-    font-family: cursive;
-    }
-
-    .top-wrapper {
-        font-family: cursive;
-    }
-
     .middle-wrapper {
-        height: 1400px;
-    }
-
-    .middle-wrapper h3{
-    font-family: 'Brush Script MT';
+    height: 1400px;
     }
 
     .photo {
     text-align: center;
     display: list-item;
     }
-    
-    .photo h2 {
-    font-family: cursive;
-    }
-
-    .photo a {
-    font-family: cursive;
-    }
 
     .bottom-wrapper {
-        text-align: center;
-    }
-
-    .bottom-wrapper h2 {
-    font-family: 'Brush Script MT';
+    text-align: center;
     }
 
     .content {
-    font-family: cursive;
     display: list-item;
     list-style: none;
-    }
-
-    footer {
-        font-family: cursive;
     }
 }
