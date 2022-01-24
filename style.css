@@ -187,6 +187,7 @@
         margin-right: 10%;
         text-align: left;
         margin-top: 50px;
+        margin-bottom: 100px;
     }
 
     .list h2 {
@@ -204,22 +205,6 @@
         padding-top: 30px;
         padding-bottom: 50px;
         width: 350px;
-    }
-
-    .bottom {
-        padding-bottom: 100px;
-        padding-top: 70px;
-    }
-
-    .bottom h2 {
-        font-family: 'Balsamiq Sans', cursive;
-    }
-
-    .bottom a {
-        font-size: 18px;
-        font-family: 'Amiri', serif;
-        display: list-item;
-        list-style: none;
     }
 
 @media (max-width:1000px) {
